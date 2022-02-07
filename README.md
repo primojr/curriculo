@@ -5,4 +5,4 @@ Estatistico | Cientista de Dados
 :envelope: gersonprimo@gmail.com
 
 > Gosto de entender tudo que acontece ao meu redor, sou um grande entusiasta da aplicação  
-> prática da estatística e *'famboy'* da linguagem `R` 
+> prática da estatística e *'fanboy'* da linguagem `R` 

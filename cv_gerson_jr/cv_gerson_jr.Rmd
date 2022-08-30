@@ -1,0 +1,61 @@
+---
+name: Gerson
+surname: R Primo Jr
+position: "Estatistíco | Cientista de Dados"
+address: "São José dos Campos,SP"
+phone: +55 19 98123 8958
+profilepic: gersonjr.jpg
+email: "gersonprimo@gmail.com"
+github: primojr
+linkedin: gerson-r-primo-jr-48992967
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "Gosto de entender tudo que acontece ao meu redor e sou um grande entusiasta da aplicação prática da estatística."
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Resumo
+
+-   *Estatístico graduado pela UFBA, com experiência na área de business intelligence, CRM e Data Scientist. Já desenvolvi modelos de propensão, clusterização e previsão. Sempre estive envolvido com modelagem e planejamento de vendas, acompanhamento de KPI's, dashboard, análise de perfil, segmentação de clientes, testes A/B e peformace de campanhas. Tenho domínio nas linguagens de programação SQL, R e Python e das ferramentas de visualização Power BI e Tableau.*
+
+# Formação
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bacharel em Estatística", "2008-11", "Universidade Federal da Bahia (UFBA)", "Salvador, BA",
+  "MIT DBA Banco de dados", "2014", "INFNET", "Rio de Janeiro, RJ",
+  "Marketing Digital de Alta Performance", "2021", "ComSchool", "Online"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Experiência
+
+## 2018 -- Atual - **Robert Bosch LTDA (Ferramentas Elétricas)**
+
+-   **Cargo:** Analista de Marketing Pleno\
+    *Principais atividades:* Database marketing (Manutenção, higienização e atualização); Estudo dos hábitos dos usuários; Segmentação de público alvo para ações de e-mail marketing; otimização de performance de mídias sociais; Modelos, simulações e mensuração de ações de marketing; data mining; Desenvolvimento e manutenção de Dashboard (Power BI); Projeto de pricing.
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  2021, "Ame Digital", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
+  2018, "Bosch", "Database marketing (Manutenção, higienização e atualização); Estudo dos hábitos dos usuários; Segmentação de público alvo para ações de e-mail marketing;  otimização de performance de mídias sociais; Modelos, simulações e mensuração de ações de marketing; data mining; Desenvolvimento e manutenção de Dashboard (Power BI); Projeto de pricing.",
+  2018, "Assertiva", "Awarded for the discovery of radium and polonium",
+  2018, "Dufry", "Awarded for the discovery of radium and polonium",
+  2018, "Compra Facil", "Awarded for the discovery of radium and polonium",
+  
+  
+) %>% 
+  brief_entries(
+    glue::glue("{Type}"),
+    Year, 
+    Desc
+  )
+```

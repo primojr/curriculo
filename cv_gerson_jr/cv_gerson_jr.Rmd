@@ -28,34 +28,30 @@ library(vitae)
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Bacharel em Estatística", "2008-11", "Universidade Federal da Bahia (UFBA)", "Salvador, BA",
+  "Marketing Digital de Alta Performance", "2021", "ComSchool", "Online",
   "MIT DBA Banco de dados", "2014", "INFNET", "Rio de Janeiro, RJ",
-  "Marketing Digital de Alta Performance", "2021", "ComSchool", "Online"
+  "Bacharel em Estatística", "2008-11", "Universidade Federal da Bahia (UFBA)", "Salvador, BA"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
 # Experiência
-
-## 2018 -- Atual - **Robert Bosch LTDA (Ferramentas Elétricas)**
-
--   **Cargo:** Analista de Marketing Pleno\
-    *Principais atividades:* Database marketing (Manutenção, higienização e atualização); Estudo dos hábitos dos usuários; Segmentação de público alvo para ações de e-mail marketing; otimização de performance de mídias sociais; Modelos, simulações e mensuração de ações de marketing; data mining; Desenvolvimento e manutenção de Dashboard (Power BI); Projeto de pricing.
-
 ```{r}
-tribble(
-  ~Year, ~Type, ~Desc,
-  2021, "Ame Digital", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  2018, "Bosch", "Database marketing (Manutenção, higienização e atualização); Estudo dos hábitos dos usuários; Segmentação de público alvo para ações de e-mail marketing;  otimização de performance de mídias sociais; Modelos, simulações e mensuração de ações de marketing; data mining; Desenvolvimento e manutenção de Dashboard (Power BI); Projeto de pricing.",
-  2018, "Assertiva", "Awarded for the discovery of radium and polonium",
-  2018, "Dufry", "Awarded for the discovery of radium and polonium",
-  2018, "Compra Facil", "Awarded for the discovery of radium and polonium",
-  
-  
+tibble::tribble(
+  ~Periodo, ~Empresa, ~Cargo,  ~Desc,
+  '2021-Atual', "AME DIGITAL", "Cientista de Dados",'Descrever',
+  '2018-21', "BOSCH", "Analista de Marketing Pl/Sr",'Database marketing (Manutenção, higienização e atualização); Estudo dos hábitos dos usuários; Segmentação de público alvo para ações de e-mail marketing;  otimização de performance de mídias sociais; Modelos, simulações e mensuração de ações de marketing; data mining; Desenvolvimento e manutenção de Dashboard (Power BI); Projeto de pricing',
+  '2018-18', "ASSERTIVA Soluções", "Analista de Business Intelligence",'Modelagem e planejamento de venda; desenvolvimento de dashboard; Segmentação de prospect; acompanhamento de KPI’s, modelo de propensão de clientes.',
+  '2015-17', "DUFRY Lojas Francas", "Analista de Business Intelligence Sr",'Modelagem e planejamento de venda; desenvolvimento de dashboard; análise do programa de relacionamento Dufry Red; estudo de simulação e impacto de ações de marketing; acompanhamento de KPI’s',
+  '2014-15', "DUFRY", "Analista de DataBase Marketing Jr/Pl",'Manutenção, higienização e atualização do database marketing; Segmentação de público alvo para ações de e-mail marketing e mídias sociais; Estudo e simulações de comportamento do cliente; text mining; Análise de retorno de campanhas de Marketing e mídias sociais; Relatórios e análise de informações gerenciais',
+  '2012-13', "COMPRA FACIL", "Analista de DataBase Marketing Jr",'Relatórios e análises com informações gerenciais; Seleções de clientes para ações de marketing direto e envio de email marketing; Estudos das bases para diversas áreas da empresa; acompanhamento de modelos estatísticos de ativação de mala-direta e desenvolvimento e manutenção de modelo de propensão a crédito.'
 ) %>% 
-  brief_entries(
-    glue::glue("{Type}"),
-    Year, 
+   detailed_entries(
+    glue::glue("{Cargo} na {Empresa} "),
+    Periodo,
+    '',
     Desc
   )
 ```
+
+

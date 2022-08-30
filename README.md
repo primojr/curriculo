@@ -15,3 +15,5 @@ Estatistico | Cientista de Dados
 - MIT DBA Banco de dados - INFNET - 2014.
 - Marketing Digital Marketing Digital de Alta Performance - ComSchool - 2021.
 
+
+[Baixar curriculo completo](https://github.com/primojr/curriculo/raw/main/cv_gerson_jr/cv_gerson_jr.pdf)

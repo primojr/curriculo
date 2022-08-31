@@ -20,7 +20,7 @@ library(vitae)
 
 # Resumo
 
->*Estatístico graduado pela UFBA, com experiência na área de business intelligence, CRM e Data Scientist. Já desenvolvi modelos de propensão, clusterização e previsão. Sempre estive envolvido com modelagem e planejamento de vendas, acompanhamento de KPI's, dashboard, análise de perfil, segmentação de clientes, testes A/B e peformace de campanhas. Tenho domínio nas linguagens de programação SQL, R e Python, das ferramentas de visualização Power BI e Tableau e do ambiente Databricks*
+>*Estatístico graduado pela UFBA, com experiência na área de business intelligence, CRM e Data Scientist. Já desenvolvi modelos de propensão, clusterização e previsão. Sempre estive envolvido com modelagem e planejamento de vendas, acompanhamento de KPI's, dashboard, análise de perfil, segmentação de clientes, testes A/B e peformace de campanhas. Tenho domínio nas linguagens de programação SQL, R e Python, das ferramentas de visualização Power BI e Tableau e do ambiente Databricks.*
 
 # Formação
 

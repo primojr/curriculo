@@ -20,7 +20,7 @@ library(vitae)
 
 # Resumo
 
->*Estatístico graduado pela UFBA, com experiência na área de business intelligence, CRM e Data Scientist. Já desenvolvi modelos de propensão, clusterização e previsão. Sempre estive envolvido com modelagem e planejamento de vendas, acompanhamento de KPI's, dashboard, análise de perfil, segmentação de clientes, testes A/B e peformace de campanhas. Tenho domínio nas linguagens de programação SQL, R e Python e das ferramentas de visualização Power BI e Tableau.*
+>*Estatístico graduado pela UFBA, com experiência na área de business intelligence, CRM e Data Scientist. Já desenvolvi modelos de propensão, clusterização e previsão. Sempre estive envolvido com modelagem e planejamento de vendas, acompanhamento de KPI's, dashboard, análise de perfil, segmentação de clientes, testes A/B e peformace de campanhas. Tenho domínio nas linguagens de programação SQL, R e Python, das ferramentas de visualização Power BI e Tableau e do ambiente Databricks*
 
 # Formação
 
@@ -40,7 +40,7 @@ tribble(
 tibble::tribble(
   ~Periodo, ~Empresa, ~Cargo,  ~Desc,
   '2021-Atual', "AME DIGITAL", "Cientista de Dados",'Modelo de propensão; Sistema de recomendação; Teste A/B e Grupo de controle; Peformace de campanhas; Clusterização de cliente; Estudo de perfil',
-  '2018-21', "BOSCH", "Analista de Marketing Pl/Sr",'Database marketing (Manutenção, higienização e atualização); Estudo dos hábitos dos usuários; Segmentação de público alvo para ações de e-mail marketing;teste A/B; otimização de performance de mídias sociais; Modelos, simulações e mensuração de ações de marketing; data mining; Desenvolvimento e manutenção de Dashboard (Power BI); Projeto de pricing',
+  '2018-21', "BOSCH", "Analista de Marketing Pl/Sr",'Database marketing (Manutenção, higienização e atualização); Estudo dos hábitos dos usuários; Segmentação de público alvo para ações de e-mail marketing; teste A/B; otimização de performance de mídias sociais; Modelos, simulações e mensuração de ações de marketing; data mining; Desenvolvimento e manutenção de Dashboard (Power BI); Projeto de pricing',
   '2018-18', "ASSERTIVA Soluções", "Analista de Business Intelligence",'Modelagem e planejamento de venda; desenvolvimento de dashboard; Segmentação de prospect; acompanhamento de KPI’s, modelo de propensão de clientes.',
   '2015-17', "DUFRY Lojas Francas", "Analista de Business Intelligence Sr",'Modelagem e planejamento de venda; desenvolvimento de dashboard; análise do programa de relacionamento Dufry Red; estudo de simulação e impacto de ações de marketing; acompanhamento de KPI’s',
   '2014-15', "DUFRY", "Analista de DataBase Marketing Jr/Pl",'Manutenção, higienização e atualização do database marketing; Segmentação de público alvo para ações de e-mail marketing e mídias sociais; Estudo e simulações de comportamento do cliente; text mining; Análise de retorno de campanhas de Marketing e mídias sociais; Relatórios e análise de informações gerenciais;',
@@ -56,7 +56,4 @@ tibble::tribble(
 
 # Informações adicionais
 
-Durante minha carreira profissional tive a possibilidade de trabalhar com diferentes técnicas de machine learning como: Modelo de propensão logístico e árvores (Randon Forest e xgboost) para identificação de público alvo; Modelo preditivos e séries temporais de venda; Análise de cluster e PCA para identificar grupos de cliente para programa de relacionamento; Data mining para definição de cesta de produtos; text mining de pesquisas; processos operacionais e simulações para ações de marketing, sistema de recomendação (apriori) para usuários. Dessa forma usei e uso com frequência as linguagens SQL,  R e  Python além do pacote Microsoft Office e Power BI.
-
-
-
+Durante minha carreira profissional tive a possibilidade de trabalhar com diferentes técnicas de machine learning como: Modelo de propensão logístico e árvores (Randon Forest e xgboost) para identificação de público alvo; Modelo preditivos e séries temporais de venda; Análise de cluster e PCA para identificar grupos de cliente para programa de relacionamento; Data mining para definição de cesta de produtos; text mining de pesquisas; processos operacionais e simulações para ações de marketing, sistema de recomendação (apriori) para usuários. Dessa forma usei e uso com frequência as linguagens SQL, R e  Python além do pacote Microsoft Office e Power BI.

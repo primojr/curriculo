@@ -16,4 +16,4 @@ Estatistico | Cientista de Dados
 - Marketing Digital Marketing Digital de Alta Performance - ComSchool - 2021.
 
 
-[Baixar curriculo completo](https://github.com/primojr/curriculo/raw/main/cv_gerson_jr/cv_gerson_jr.pdf)
+[Baixar curriculo completo](https://github.com/primojr/curriculo/blob/main/cv_gerson_jr/cv_gerson_jr.pdf)

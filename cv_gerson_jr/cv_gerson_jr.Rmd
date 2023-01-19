@@ -20,7 +20,7 @@ library(vitae)
 
 # Resumo
 
->*Estatístico graduado pela UFBA, com experiência na área de business intelligence, CRM e Data Scientist. Já desenvolvi modelos de propensão, clusterização e previsão. Sempre estive envolvido com modelagem e planejamento de vendas, acompanhamento de KPI's, dashboard, análise de perfil, segmentação de clientes, testes A/B e peformace de campanhas. Tenho domínio nas linguagens de programação SQL, R e Python, das ferramentas de visualização Power BI e Tableau e do ambiente Databricks.*
+> *Estatístico graduado pela UFBA, com experiência na área de business intelligence, CRM e Data Scientist. Já desenvolvi modelos de propensão, clusterização e previsão. Sempre estive envolvido com forecast e planejamento de vendas, acompanhamento de KPI's, dashboard, análise de perfil, segmentação de clientes, testes A/B e performance de campanhas. Tenho domínio nas linguagens de programação SQL, R e Python, das ferramentas de visualização Power BI e Tableau e do ambiente Databricks.*
 
 # Formação
 
@@ -36,6 +36,7 @@ tribble(
 ```
 
 # Experiência
+
 ```{r}
 tibble::tribble(
   ~Periodo, ~Empresa, ~Cargo,  ~Desc,
@@ -56,4 +57,4 @@ tibble::tribble(
 
 # Informações adicionais
 
-Durante minha carreira profissional tive a possibilidade de trabalhar com diferentes técnicas de machine learning como: Modelo de propensão logístico e árvores (Randon Forest e xgboost) para identificação de público alvo; Modelo preditivos e séries temporais de venda; Análise de cluster e PCA para identificar grupos de cliente para programa de relacionamento; Data mining para definição de cesta de produtos; text mining de pesquisas; processos operacionais e simulações para ações de marketing, sistema de recomendação (apriori) para usuários. Dessa forma usei e uso com frequência as linguagens SQL, R e  Python além do pacote Microsoft Office e Power BI.
+Durante minha carreira profissional tive a possibilidade de trabalhar com diferentes técnicas de machine learning e modelagem estatística como: Modelo de propensão logístico e árvores (Randon Forest e xgboost) para identificação de público alvo; Modelo preditivos e séries temporais de venda; Análise de cluster e PCA para identificar grupos de cliente para programa de relacionamento; Data mining para definição de cesta de produtos; text mining de pesquisas; processos operacionais e simulações para ações de marketing, sistema de recomendação (apriori) para usuários. Dessa forma usei e uso com frequência as linguagens SQL, R e Python além do pacote Microsoft Office e Power BI.

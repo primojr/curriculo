@@ -5,7 +5,7 @@ Estatistico | Cientista de Dados
 :envelope: gersonprimo@gmail.com
 
 > Gosto de entender tudo que acontece ao meu redor, sou um grande entusiasta da aplicação  
-> prática da estatística e *'fanboy'* da linguagem `R` 
+> prática da estatística. 
 
 *Estatístico graduado pela UFBA, com experiência na área de business intelligence, CRM e Data Scientist. Já desenvolvi modelos de propensão, clusterização e previsão. Sempre estive envolvido com modelagem e planejamento de vendas, acompanhamento de KPI's, dashboard, análise de perfil, segmentação de clientes, testes A/B e peformace de campanhas. Tenho domínio nas linguagens de programação SQL, R e Python, das ferramentas de visualização Power BI e Tableau e do ambiente Databricks.*
 

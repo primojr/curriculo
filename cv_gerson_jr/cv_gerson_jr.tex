@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% Adapted to be an Rmarkdown template by Rob J Hyndman
+% 23 November 2018
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,]{twentysecondcv}
+
+\usepackage[scaled=0.86]{DejaVuSansMono}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{csquotes}
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+\usepackage{booktabs}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+% Profile pic
+\profilepic{gersonjr.jpg}
+
+\cvname{Gerson R Primo Jr} % Your name
+
+\cvjobtitle{Estatistíco \textbar{} Cientista de
+Dados} % Job title/career
+\cvdate{November 2025} % Date of birth or date of CV??
+\cvaddress{Salvador,
+BA} % Short address/location, use \newline if more than 1 line is required
+\cvpronouns{} % Pronouns
+\cvnumberphone{+55 19 98123 8958} % Phone number
+\cvsite{} % Personal website
+\cvmail{\href{mailto:gersonprimo@gmail.com}{\nolinkurl{gersonprimo@gmail.com}}} % Email address
+\cvtwitter{}
+\cvgithub{\href{https://github.com/primojr}{primojr}}
+\cvlinkedin{\href{https://www.linkedin.com/in/gerson-r-primo-jr-48992967}{gerson-r-primo-jr-48992967}}
+\cvorcid{}
+\cvscholar{}
+\cvresearchgate{}
+
+\lfoot{\sf Curriculum Vitae: Gerson R Primo Jr}
+\rfoot{\sf\thepage}
+
+% Pandoc CSL macros
+
+\begin{document}
+\aboutme{Gosto de entender tudo que acontece ao meu redor e sou um
+grande entusiasta da aplicação prática da estatística.}
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+%\skills{{pursuer of rabbits/5.8},{good manners/4},{outgoing/4.3},{polite/4},{Java/0.01}}
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+\makeprofile % Print the sidebar
+
+
+
+
+\section{Resumo}\label{resumo}
+
+\begin{quote}
+\emph{Estatístico, com mestrado em Estatística e Ciência de Dados pela
+UFBA e experiência na área de Business Intelligence/CRM.\\
+Experiencia com implantação (end-to-end) de soluções de machine learning
+(modelos de propensão, previsão, clusterização, sistemas de
+recomendação). Sempre estive envolvido em soluções de ciência de dados
+para a area de marketing.\\
+Tenho domínio nas linguagens de programação SQL, R e Python, das
+ferramentas de visualização Power BI e Tableau, e dos ambientes
+Databricks e SageMaker.}
+\end{quote}
+
+\section{Formação}\label{formauxe7uxe3o}
+
+\nopagebreak
+
+\begin{twenty}
+    \twentyitem{2024-26}{Mestrado em Estatística e Ciência de Dados}{UFBA}{Salvador, BA\par\empty}
+    \twentyitem{2021}{Marketing Digital de Alta Performance}{ComSchool}{Online\par\empty}
+    \twentyitem{2014}{MIT DBA Banco de dados}{INFNET}{Rio de Janeiro, RJ\par\empty}
+    \twentyitem{2008-11}{Bacharel em Estatística}{UFBA}{Salvador, BA\par\empty}
+\end{twenty}
+
+\section{Experiência}\label{experiuxeancia}
+
+\nopagebreak
+
+\begin{twenty}
+    \twentyitem{2023-Atual}{Cientista de Dados - Especialista na WILLBANK }{}{Aplicação de Data Science em Marketing/CRM com foco no cliente, desenvolvendo modelos de propensão, recomendação, atribuição, clusterização e testes A/B\par\empty}
+    \twentyitem{2021-2023}{Cientista de Dados - Especialista na AME DIGITAL }{}{Modelo de propensão; Sistema de recomendação; Teste A/B e Grupo de controle; Peformace de campanhas; Clusterização de cliente; Estudo de perfil\par\empty}
+    \twentyitem{2018-21}{Analista de Marketing Pl/Sr na BOSCH }{}{Database marketing (Manutenção, higienização e atualização); Estudo dos hábitos dos usuários; Segmentação de público alvo para ações de e-mail marketing; teste A/B; otimização de performance de mídias sociais; Modelos, simulações e mensuração de ações de marketing; data mining; Desenvolvimento e manutenção de Dashboard (Power BI); Projeto de pricing\par\empty}
+    \twentyitem{2018-18}{Analista de Business Intelligence na ASSERTIVA Soluções }{}{Modelagem e planejamento de venda; desenvolvimento de dashboard; Segmentação de prospect; acompanhamento de KPI’s, modelo de propensão de clientes.\par\empty}
+    \twentyitem{2015-17}{Analista de Business Intelligence Sr na DUFRY Lojas Francas }{}{Forecast de vendas; desenvolvimento de dashboard; análise do programa de relacionamento Dufry Red; estudo de simulação e impacto de ações de marketing; acompanhamento de KPI’s\par\empty}
+    \twentyitem{2014-15}{Analista de DataBase Marketing Jr/Pl na DUFRY }{}{Manutenção, higienização e atualização do database marketing; Segmentação de público alvo para ações de e-mail marketing e mídias sociais; Estudo e simulações de comportamento do cliente; text mining; Análise de retorno de campanhas de Marketing e mídias sociais; Relatórios e análise de informações gerenciais;\par\empty}
+    \twentyitem{2012-13}{Analista de DataBase Marketing Jr na COMPRA FACIL }{}{Geração de insights e relatórios gerenciais; segmentação e targeting de clientes para otimização de campanhas de CRM\par\empty}
+\end{twenty}
+
+\section{Informações adicionais}\label{informauxe7uxf5es-adicionais}
+
+Experiência consolidada em todo o ciclo de vida de projetos de dados,
+aplicando modelagem avançada (Propensão, Previsão, Séries Temporais,
+Cluster, PCA) para gerar valor de negócio (Segmentação de Clientes,
+Targeting de Marketing, Previsão de Vendas, Sistemas de Recomendação) e
+simulação para otimizar ações, com domínio em SQL, R, Python, Git e em
+plataformas como Databricks, AWS SageMaker, Power BI e Looker.
+
+
+\end{document}

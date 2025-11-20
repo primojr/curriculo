@@ -2,7 +2,7 @@
 name: Gerson
 surname: R Primo Jr
 position: "Estatistíco | Cientista de Dados"
-address: "São José dos Campos,SP"
+address: "Salvador, BA"
 phone: +55 19 98123 8958
 profilepic: gersonjr.jpg
 email: "gersonprimo@gmail.com"
@@ -13,6 +13,7 @@ aboutme: "Gosto de entender tudo que acontece ao meu redor e sou um grande entus
 output: vitae::twentyseconds
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
@@ -20,7 +21,9 @@ library(vitae)
 
 # Resumo
 
-> *Estatístico graduado pela UFBA, com experiência na área de business intelligence, CRM e Data Scientist. Já desenvolvi modelos de propensão, clusterização e previsão. Sempre estive envolvido com forecast e planejamento de vendas, acompanhamento de KPI's, dashboard, análise de perfil, segmentação de clientes, testes A/B e performance de campanhas. Tenho domínio nas linguagens de programação SQL, R e Python, das ferramentas de visualização Power BI e Tableau e do ambiente Databricks.*
+> *Estatístico, com mestrado em Estatística e Ciência de Dados pela UFBA e experiência na área de Business Intelligence/CRM.\
+> Experiencia com implantação (end-to-end) de soluções de machine learning (modelos de propensão, previsão, clusterização, sistemas de recomendação). Sempre estive envolvido em soluções de ciência de dados para a area de marketing.\
+> Tenho domínio nas linguagens de programação SQL, R e Python, das ferramentas de visualização Power BI e Tableau, e dos ambientes Databricks e SageMaker.*
 
 # Formação
 
@@ -28,9 +31,10 @@ library(vitae)
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Mestrado em Estatística e Ciência de Dados", "2024-26", "UFBA", "Salvador, BA",
   "Marketing Digital de Alta Performance", "2021", "ComSchool", "Online",
   "MIT DBA Banco de dados", "2014", "INFNET", "Rio de Janeiro, RJ",
-  "Bacharel em Estatística", "2008-11", "Universidade Federal da Bahia (UFBA)", "Salvador, BA"
+  "Bacharel em Estatística", "2008-11", "UFBA", "Salvador, BA"
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -40,12 +44,13 @@ tribble(
 ```{r}
 tibble::tribble(
   ~Periodo, ~Empresa, ~Cargo,  ~Desc,
-  '2021-Atual', "AME DIGITAL", "Cientista de Dados",'Modelo de propensão; Sistema de recomendação; Teste A/B e Grupo de controle; Peformace de campanhas; Clusterização de cliente; Estudo de perfil',
+  '2023-Atual', "WILLBANK", "Cientista de Dados - Especialista","Aplicação de Data Science em Marketing/CRM com foco no cliente, desenvolvendo modelos de propensão, recomendação, atribuição, clusterização e testes A/B",
+  '2021-2023', "AME DIGITAL", "Cientista de Dados - Especialista",'Modelo de propensão; Sistema de recomendação; Teste A/B e Grupo de controle; Peformace de campanhas; Clusterização de cliente; Estudo de perfil',
   '2018-21', "BOSCH", "Analista de Marketing Pl/Sr",'Database marketing (Manutenção, higienização e atualização); Estudo dos hábitos dos usuários; Segmentação de público alvo para ações de e-mail marketing; teste A/B; otimização de performance de mídias sociais; Modelos, simulações e mensuração de ações de marketing; data mining; Desenvolvimento e manutenção de Dashboard (Power BI); Projeto de pricing',
   '2018-18', "ASSERTIVA Soluções", "Analista de Business Intelligence",'Modelagem e planejamento de venda; desenvolvimento de dashboard; Segmentação de prospect; acompanhamento de KPI’s, modelo de propensão de clientes.',
   '2015-17', "DUFRY Lojas Francas", "Analista de Business Intelligence Sr",'Forecast de vendas; desenvolvimento de dashboard; análise do programa de relacionamento Dufry Red; estudo de simulação e impacto de ações de marketing; acompanhamento de KPI’s',
   '2014-15', "DUFRY", "Analista de DataBase Marketing Jr/Pl",'Manutenção, higienização e atualização do database marketing; Segmentação de público alvo para ações de e-mail marketing e mídias sociais; Estudo e simulações de comportamento do cliente; text mining; Análise de retorno de campanhas de Marketing e mídias sociais; Relatórios e análise de informações gerenciais;',
-  '2012-13', "COMPRA FACIL", "Analista de DataBase Marketing Jr",'Relatórios e análises com informações gerenciais; Seleções de clientes para ações de marketing direto e envio de email marketing; Estudos das bases para diversas áreas da empresa; acompanhamento de modelos estatísticos de ativação de mala-direta e desenvolvimento e manutenção de modelo de propensão a crédito.'
+  '2012-13', "COMPRA FACIL", "Analista de DataBase Marketing Jr",'Geração de insights e relatórios gerenciais; segmentação e targeting de clientes para otimização de campanhas de CRM'
 ) %>% 
    detailed_entries(
     glue::glue("{Cargo} na {Empresa} "),
@@ -57,4 +62,5 @@ tibble::tribble(
 
 # Informações adicionais
 
-Durante minha carreira profissional tive a possibilidade de trabalhar com diferentes técnicas de machine learning e modelagem estatística como: Modelo de propensão logístico e árvores (Randon Forest e xgboost) para identificação de público alvo; Modelo preditivos e séries temporais de venda; Análise de cluster e PCA para identificar grupos de cliente para programa de relacionamento; Data mining para definição de cesta de produtos; text mining de pesquisas; processos operacionais e simulações para ações de marketing, sistema de recomendação (apriori) para usuários. Dessa forma usei e uso com frequência as linguagens SQL, R e Python além do pacote Microsoft Office e Power BI.
+Experiência consolidada em todo o ciclo de vida de projetos de dados, aplicando modelagem avançada (Propensão, Previsão, Séries Temporais, Cluster, PCA) para gerar valor de negócio (Segmentação de Clientes, Targeting de Marketing, Previsão de Vendas, Sistemas de Recomendação) e simulação para otimizar ações, com domínio em SQL, R, Python, Git e em plataformas como Databricks, AWS SageMaker, Power BI e Looker.
+
